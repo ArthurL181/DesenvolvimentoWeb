@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container p {
+    text-align: justify;
+}
+
+.galeria-img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid red;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+.faq-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.accordion-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #5a6268;
+    color: white;
+}
